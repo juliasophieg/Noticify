@@ -1,0 +1,16 @@
+:root {
+    --red: #fa6262;
+    --blue: #cae9f2;
+    --bg-gray: #fbfbfb;
+    --yellow: #fffacc;
+    --green: #e2efc7;
+    --pink: #efc7c7;
+    --font-color: #000;
+    --blue-solid: #a1dbed;
+    --green-solid: #d4eda1;
+  }
+
+  body {
+    font-family: Poppins, sans-serif;
+    
+  }
