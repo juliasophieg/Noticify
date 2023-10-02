@@ -10,7 +10,170 @@
     --green-solid: #d4eda1;
   }
 
+  * {
+    box-sizing: border-box;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    padding-bottom: 1rem;
+  }
+
+  .header-name {
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--red);
+  }
+
+ul {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+  }
+
+  nav ul a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--font-color);
+  }
+
+
   body {
     font-family: Poppins, sans-serif;
-    
+    margin: 0;
+  }
+
+  h1 {
+    font-size: 3.75rem;
+    margin: 0;
+  }
+
+  h2 {
+    font-size: 2.25rem;
+  }
+
+
+  p {
+    font-size: 1rem;
+  }
+
+  main {
+    margin: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    gap: 2rem 2rem;
+  }
+  .card {
+    background: var(--bg-gray);
+    width: calc(50% - 3rem);
+    padding: 1.5rem;
+    box-shadow: 3px 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+    position: relative;
+  }
+
+  .tags {
+    display: flex;
+    gap: 0.5rem;
+   
+  }
+
+  .tag-yellow, .tag-blue, .tag-green, .tag-red {
+    border-radius: 5px;
+    border: none;
+    padding: 0.25rem 1rem 0.25rem 1rem;
+  }
+
+  .tag-yellow {
+    background-color: var(--yellow);
+  }
+
+  .tag-blue {
+    background-color: var(--blue)
+  }
+
+  .tag-green {
+    background-color: var(--green)
+  }
+
+  .tag-red {
+    background-color: var(--pink)
+  }
+
+  .p-tag {
+    font-size: 0.75rem;
+  }
+
+  .arrow-btn-red {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border-radius: 0 0 1rem 0;
+    background-color: var(--red);
+    height: 3rem;
+    width: 3rem;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .intro {
+    width: 40%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .p-intro {
+    font-size: 1.5rem;
+    font-weight: 300;
+  }
+
+  .intro-btn-group {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .blue-btn, .green-btn {
+    width: 40%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 3rem;
+    border: none;
+    border-radius: 1rem;
+    gap: 1rem;
+    padding: 0;
+  }
+
+  .blue-btn {
+    background-color: var(--blue);
+  }
+
+  .green-btn {
+    background-color: var(--green);
+  }
+
+  .blue-arrow, .green-arrow {
+    height: 2.75rem;
+    width: 2.75rem;
+    padding: 1rem;
+    border-radius: 1rem;
+  }
+
+  .blue-arrow {
+    background-color: var(--blue-solid);
+  }
+
+  .green-arrow {
+    background-color: var(--green-solid);
   }
