@@ -165,9 +165,9 @@ ul {
   }
 
   .blue-arrow, .green-arrow {
-    height: 2.75rem;
-    width: 2.75rem;
-    padding: 1rem;
+    height: 3rem;
+    width: 3rem;
+    padding: 1.25rem;
     border-radius: 1rem;
   }
 
